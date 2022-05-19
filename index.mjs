@@ -15,6 +15,7 @@ const accProposer = await stdlib.newTestAccount(startBal);
 
 const ctcProposer = accProposer.contract(backend);
 const deadline = 10;
+const outcomes = ["EXECUTED", "NOT_EXECUTED"];
 
 try {
 	await ctcProposer.p.Proposer({
@@ -67,7 +68,8 @@ const timesUp = async () => {
 	const yes = parseInt(results[1]._hex, 16);
 	const no = parseInt(results[2]._hex, 16);
 	const outcome = parseInt(results[0]._hex, 16);
-	console.log("Times up. Outcome:", outcome, ",Yes:", yes, ",No:", no);
+	console.log(`Times up. Outcome: ${outcomes[outcome]}.
+		\nTotal yes votes : ${yes}, total no votes No: ${no}`);
 };
 
 await vote(0);
