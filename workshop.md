@@ -340,6 +340,9 @@ Free food for school kids 10
 K5S3M5OQG6BYWKJOMBVKZNPP2VQ4VPL7Q6LOS2RKXYWYJCGCXY2YVVF4XQ voted true has 99.9981
 Free food for school kids 10
 7IJD7WVVROISMWGMHRU7ZHY4NQEV36K4ORPJBOP5ELGE3OBP25PXBKH3RQ voted true has 99.998
+Waiting for the deadline
+Times up. Outcome: EXECUTED.
+Total yes votes : 4, total no votes : 1
 ```
 ## Discussions and Next Steps
 Great Job! Hope you had as much fun working on this as we did. The contract is far from perfect but it provided an amazing base for us to understand Reach in depth.  
