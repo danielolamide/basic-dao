@@ -150,7 +150,7 @@ const [keepGoing, votesYes, votesNo] =
 commit();
 exit();
 ```
-## Assetion Insertion
+## Assertion Insertion
 When we are programming, we hold a complex theory of the behavior of the program inside of our minds that helps us know what should happen next in the program based on what has happened before and what is true at every point in the program. As programs become more complex, this theory becomes more and more difficult to grasp, so we might make mistakes. Furthermore, when another programmer reads our code (such as a version of ourselves from the future trying to modify the program), it can be very difficult to understand this theory for ourselves. Assertions are ways of encoding this theory directly into the text of the program in a way that will be checked by Reach and available to all future readers and editors of the code.
 
 Look at your application. What are the assumptions you have about the values in the program?
